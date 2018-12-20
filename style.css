@@ -1,0 +1,125 @@
+* {
+    background: #464451;
+}
+
+textarea {
+    background: white;
+    resize: none;
+    box-shadow: inset 1px 1px 10px 1px #B5B8B1;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 5px;
+    width: 665px;
+    height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background: white;
+    outline: none;
+    border-radius: 10px;
+}
+
+.buttons {
+    width: 660px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+button {
+    outline: none;
+    position: relative;
+    left: 10px;
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    
+   
+}
+
+.saveAs{
+    border-image: -webkit-linear-gradient(right, #fdc830, #f37335);
+    border-image-slice: 1;
+}
+.saveAs:hover {
+    cursor: pointer;
+    border: none;
+    background-image: -webkit-linear-gradient(right, #fdc830, #f37335);
+}
+
+.open{
+    border-image: -webkit-linear-gradient(right, #FF2400, #0047AB);
+    border-image-slice: 1;
+}
+.open:hover {
+    cursor: pointer;
+    border: none;
+    background-image: -webkit-linear-gradient(right, #FF2400, #0047AB);
+}
+
+.save{
+    border-image: -webkit-linear-gradient(right, #35c9ff, #27d853);
+    border-image-slice: 1;
+}
+.save:hover {
+    cursor: pointer;
+    border: none;
+    background-image: -webkit-linear-gradient(right, #35c9ff, #27d853);
+}
+
+.crypto {
+    width: 670px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.decrypt {
+    position: relative;
+    left: 230px;
+    border-image: -webkit-linear-gradient(right, #FFFF66, #FE28A2);
+    border-image-slice: 1;
+}
+
+.decrypt:hover {
+    cursor: pointer;
+    border: none;
+    background-image: -webkit-linear-gradient(right, #FFFF66, #FE28A2);
+}
+
+.encode {
+    border-image: -webkit-linear-gradient(right, #FE28A2, #8A2BE2);
+    border-image-slice: 1;
+}
+.encode:hover {
+    cursor: pointer;
+    border: none;
+    background-image: -webkit-linear-gradient(right, #FE28A2, #8A2BE2);
+}
+
+.print {
+    position: relative;
+    left: -210px;
+    top: 100px;
+    border-image: -webkit-linear-gradient(right, #35c9ff, #7FFFD4);
+    border-image-slice: 1;
+}
+
+.print:hover {
+    cursor: pointer;
+    border: none;
+    background-image: -webkit-linear-gradient(right, #35c9ff, #7FFFD4);
+}
+
+
